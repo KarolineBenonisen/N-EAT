@@ -1,0 +1,232 @@
+@charset "UTF-8";
+/* CSS Document /* Reset some default styles */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Set a background color and font styles */
+body {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"sans-serif;
+    background-color: #F4ECCF;
+}
+
+/* Style the header section */
+header {
+    background-color: #F4ECCF;
+    color: #F4ECCF;
+    text-align: center;
+    padding: 10px;
+	font: "Lulo Clean W01 One Bold"
+}
+/* Style the navigation bar */
+/* Style the navigation bar */
+.navbar {
+    display: flex; /* Use flexbox to align elements horizontally */
+    align-items: center; /* Vertically align elements */
+    background-color: #F4ECCF; /* Set the background color for the navigation bar */
+    padding: 10px; /* Add padding to the navigation bar */
+    justify-content: space-between;
+}
+.logo img {
+    width: 200px; /* Adjust the width of the logo as needed */
+    height: 89;
+
+}
+/* Style the menu items within the navigation menu */
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin:  10px; /* Adjust the margin between menu items */
+}
+
+/* Define dimensions for the menu items */
+.navbar a {
+    display: block;
+    width: 100px; /* Adjust the width of each menu item */
+    height: 100%; /* Adjust the height of each menu item */
+    transition: transform 0.2s; /* Add a smooth scaling transition on hover */
+	
+	
+}	
+	.navbar a {
+    background-color: transparent;
+	box-shadow: none;
+		border: none;
+	
+}
+
+
+.navbar a img {
+    width: 100%; 
+    height: 100%; 
+}
+
+/* Add a scaling transformation on hover */
+.navbar a:hover {
+    transform: scale(1.3); /* Scale the item by 10% on hover */
+}
+
+picture and menu {
+	
+	
+}
+.full-width-section img {
+    width: 100%; /* 100% width of the section */
+    height: auto; /* Automatically adjust the height while maintaining the aspect ratio */
+}
+.full-width-section {
+    position: relative; /* Needed for absolute positioning of .menu-overlay */
+    width: 100%; /* 100% width of its containing element (usually the page) */
+}
+
+/* Style the container for the image and text */
+.menu-overlay {
+    position: relative;
+    width: 100%;
+}
+
+/* Style the image within the section */
+.menu-overlay img {
+    width: 100%; /* 100% width of the section */
+    height: auto; /* Automatically adjust the height while maintaining the aspect ratio */
+}
+
+/* Style the text in the middle of the image */
+.menu-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 96px; 
+    color: #fff; 
+    background-color: none(0, 0, 0, 0); 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+	font-family: Arial, "Arial Bold"
+	
+
+}
+
+
+main {
+}
+
+/* Style the menu page container */
+.menu-section {
+    width: 100%; /* Display as a full-width block */
+    margin: 20px 0; /* Margin between menu sections */
+    text-align: center; /* Center the content */
+}
+
+
+/* Style the section title */
+.menu-section h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    background-color: #F4ECCF;
+    padding: 10px;
+	font-family: Arial, "Arial Bold"
+	
+	
+}
+
+/* Style the menu items container */
+.menu-section .menu-item {
+    width: calc(33.33% - 20px); /* Display three dishes per row, adjust the margin as needed */
+    margin: 28px 28px 28px 28px; /* Margin between menu items */
+    display: inline-block; /* Display dishes in a row */
+    vertical-align: top; /* Align dishes at the top of the row */
+}
+
+/* Style the dish image container */
+.dish-image {
+    width: 120px; /* Adjust the width of the container */
+    height: 120px; /* Make it square by setting the height equal to the width */
+    border-radius: 50%; /* Create a round shape */
+    overflow: hidden; /* Clip the image to the container */
+    margin: 0 auto 10px; /* Center the container vertically and add margin at the bottom */
+}
+
+/* Style the dish image */
+.dish-image img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Maintain aspect ratio */
+    border-radius: 50%; /* Apply round shape to the image */
+}
+
+/* Style other menu item content */
+.menu-item h3 {
+	font-family: Arial, "Arial Bold";
+    font-size: 18px; /* Adjust font size for dish names */
+    margin: 10px 0;
+}
+
+.menu-item p {
+	
+	font-family: Arial, "Arial Italic";
+    font-size: 16px; /* Default font size for dish descriptions */
+    margin: 10px 0;
+}
+
+/* Style the font size for descriptions in the "Sides" section */
+.menu-section.sides .menu-item p {
+    font-size: 14px; /* Smaller font size for "Sides" section */
+}
+
+.price {
+    display: block;
+	font-family: Arial, "Arial Bold";
+    font-size: 15px;
+    color: #5A8872;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 20px 70px 0px 70px;
+    text-align: center;
+	font-family: Arial, "Arial Italic";
+}
+
+/* Style the footer content */
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Style the contact info */
+.contact-info {
+    flex: 1;
+    text-align: left;
+}
+
+/* Style the social media links */
+.social-media {
+    flex: 1;
+    text-align: right;
+}
+
+/* Style the social media icons */
+.social-media img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+
+
+
